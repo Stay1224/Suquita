@@ -1,0 +1,39 @@
+@import url(../CSS/todas.css);
+
+.tudoobj {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 5vw;
+    color: #FFF;
+    margin-top: 4vw;
+}
+
+.tudoobj h1 {
+    font-size: 3vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: .35vw;
+}
+
+.tudoobj hr {
+    border: 1px solid var(--Lilas);
+    width: 14.5vw;
+    height: .35vw;
+    background: var(--Lilas);
+    margin: 1.5vw 0vw 1.5vw 1vw;
+}
+
+.imagemobj {
+    width: 28vw;
+    height: 28vw;
+    background: white;
+    box-shadow: -2vw -2vw var(--Lilas);
+}
+
+.textoobj {
+    width: 50%;
+    line-height: 2.1vw;
+}

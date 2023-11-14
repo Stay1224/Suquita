@@ -1,0 +1,27 @@
+@import url(../../CSS/todas.css);
+
+header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vw;
+    gap: 35vw;
+    margin-bottom: 2vw;  
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: .5vw;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    font-size: 1.3vw;
+}
+
+li a {
+    text-decoration: none;
+    text-transform: none;
+    color: var(--Cor-letras); 
+}
