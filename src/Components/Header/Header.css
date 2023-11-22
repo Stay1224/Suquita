@@ -25,3 +25,11 @@ li a {
     text-transform: none;
     color: var(--Cor-letras); 
 }
+
+li a:hover {
+    color: var(--Lilas);
+}
+
+header img {
+    width: 9vw;
+}

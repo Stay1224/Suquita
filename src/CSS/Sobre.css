@@ -1,0 +1,43 @@
+@import url(../CSS/todas.css);
+
+.sobren h1 {
+    font-size: 2.5vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: .30vw;
+}
+
+.sobren hr {
+    border: 1px solid var(--Lilas);
+    width: 19vw;
+    height: .35vw;
+    background: var(--Lilas);
+    margin: .4vw 0vw 4vw 1vw;
+}
+
+.sobren {
+    color: #FFF;
+}
+
+.grupo {
+    display: flex;
+    flex-direction: row;
+}
+
+.grupo h2 {
+    font-size: 1.5vw;
+    margin: 1vw 0vw 2.5vw 0vw;
+    display: flex;
+    justify-content: center;
+}
+
+.int img{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.int p {
+    text-align: justify;
+}

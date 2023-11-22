@@ -22,7 +22,7 @@ function Header() {
                     <Link to={'/sobre'}>Sobre</Link>
                 </li>
                 <li>
-                    <Link to={'videos'}>Videos</Link>
+                    <Link to={'/videos'}>Videos</Link>
                 </li>
             </ul>
         </header>

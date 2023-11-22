@@ -7,15 +7,22 @@ import '../CSS/Videos.css'
 function Videos() {
   return (
     <>
-    <body>
-      <Header />
+      <body>
+        <Header />
 
-      <main>
-        <sectioon className="video">
-          <h1>Vídeos</h1>
-        </sectioon>
-      </main>
-    </body>
+        <main>
+          <section className="video">
+            <h1>Vídeos</h1>
+            <hr />
+
+            <div className="vrideo">
+            <iframe src="https://www.youtube.com/watch?v=KsXbXoWesLY" frameborder="0" allowFullScreen></iframe>
+            </div>
+
+            <Link to="https://youtu.be/YMGiZMBldh4?si=mb2CjkaRqLMyRsuq">Clique aqui para ver o video base</Link>
+          </section>
+        </main>
+      </body>
     </>
   )
 }

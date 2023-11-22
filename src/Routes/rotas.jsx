@@ -11,7 +11,7 @@ function Rotas() {
         <Route path='/' element={<Objetivos />}/>
         <Route path='/pecas' element={<Pecas />}/>   
         <Route path='/videos' element={<Videos />}/>
-        <Route path='/sobrenos' element={<Sobre_nos />}/> 
+        <Route path='/sobre' element={<Sobre_nos />}/> 
     </Routes>
   )
 }
