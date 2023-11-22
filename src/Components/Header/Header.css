@@ -24,10 +24,13 @@ li a {
     text-decoration: none;
     text-transform: none;
     color: var(--Cor-letras); 
+
 }
 
 li a:hover {
     color: var(--Lilas);
+    border-bottom: 2px solid var(--Lilas);
+    border-bottom-left-radius: 1px solid var(--Lilas);
 }
 
 header img {
