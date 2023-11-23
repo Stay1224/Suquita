@@ -1,5 +1,7 @@
 @import url(../CSS/todas.css);
+/* Sobre.css */
 
+/* Estilos originais para telas maiores */
 .sobren h1 {
     font-size: 2.5vw;
     font-family: 'Poppins', sans-serif;
@@ -40,4 +42,39 @@
 
 .int p {
     text-align: justify;
+}
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    .sobren h1 {
+        font-size: 6vw;
+        letter-spacing: .25vw;
+    }
+
+    .sobren hr {
+        width: 70vw;
+    }
+
+    .sobren {
+        color: #FFF;
+    }
+
+    .grupo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grupo h2 {
+        font-size: 4vw;
+        margin: 5vw 0vw;
+    }
+
+    .int img {
+        width: 70vw;
+    }
+
+    .int p {
+        font-size: 4vw;
+        text-align: justify;
+    }
 }
